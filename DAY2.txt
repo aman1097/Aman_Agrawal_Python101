@@ -1,0 +1,10 @@
+1.shebang of bash-#!/usr/bin/env bash
+  shebang of perl-#!/usr/bin/perl
+
+5.After typing __name__ in interpreter it gives __main__.The __name__ is a built in variable which returns the name of the module which is the entry point of the code.
+
+3.__builtins__ are the modules which gives direct access to the different builtin identifiers ex-__builtin__.open() is described as builtin function open().
+
+2.dir() when typed on interpreter, it shows different names which are defined in the local namespace like __builtin__,__doc__ ,__loader__ ,__name__.
+
+4.dir(__builtins__)
